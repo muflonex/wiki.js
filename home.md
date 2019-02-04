@@ -1,5 +1,5 @@
 <!-- TITLE: Fund profile app -->
-<!-- SUBTITLE: El objetivo de la aplicación es mostrar la página con datos de un fondo dentro de la cartera de fondos de BBVA. Está construida con Polymer 2 y como la fuente de datos utiliza un mock server montado con json-server. -->
+<!-- SUBTITLE: Con esta app mostramos una página con datos de un fondo dentro de la cartera de fondos de BBVA. Está construida con Polymer 2 y como la fuente de datos utiliza un mock server montado con json-server. -->
 
 ## Instalación
 ### Requisitos:
