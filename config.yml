@@ -1,6 +1,6 @@
 title: Fund profile Wiki
-host: 'https://wiki.muflonex.eu'
-port: 443
+host: 'http://wiki.muflonex.eu:2000'
+port: 2000 
 paths:
   repo: ./repo
   data: ./data
@@ -65,19 +65,9 @@ auth:
     tokenURL: OPENID_CONNECT_TOKEN_URL
     emailClaim: OPENID_CONNECT_EMAIL_CLAIM_PATH
     usernameClaim: OPENID_CONNECT_USERNAME_CLAIM_PATH
-sessionSecret: 58cbb489c1804df8d1db81fb3f4932c7c4048c87dee810579b71b30d505ae37f
+sessionSecret: a84fe08aa0707ecae46dadf8e4916b1005a47ce7aed640e269b6b222db20dcb4
 db: 'mongodb://localhost:27017/wiki2'
-git:
-  url: 'https://github.com/muflonex/wiki.js.git'
-  branch: master
-  auth:
-    type: basic
-    username: muflonex
-    password: Kv501*81
-    privateKey: /etc/wiki/keys/git.pem
-    sslVerify: true
-  showUserEmail: true
-  serverEmail: muflonex@gmail.com
+git: false
 features:
   linebreaks: true
   mathjax: true
