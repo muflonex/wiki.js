@@ -1,6 +1,6 @@
 title: Fund profile Wiki
-host: 'https://wiki.muflonex.eu:2000'
-port: 2000
+host: 'https://wiki.muflonex.eu'
+port: 443
 paths:
   repo: ./repo
   data: ./data
